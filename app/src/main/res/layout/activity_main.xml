@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My NanoDegree Apps!"
+        android:layout_marginTop="25dp"
+        android:textSize="24sp"
+        android:textColor="#000"/>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/colorButtonBackground"
+        android:text="Spotify Streamer"
+        android:id="@+id/main_activity_spotifyStreamer"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorButtonBackground"
+        android:text="SCORES APP"
+        android:id="@+id/main_activity_scoresApp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorButtonBackground"
+        android:text="LIBRARY APP"
+        android:id="@+id/main_activity_libraryApp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorButtonBackground"
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/main_activity_buildItBigger"/>
+
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorButtonBackground"
+        android:text="XYZ READER"
+        android:id="@+id/main_activity_xyzReader"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorCapstoneBackground"
+        android:text="CAPSTONE:MY OWN APP"
+        android:id="@+id/main_activity_Capstone"/>
+
+</LinearLayout>
